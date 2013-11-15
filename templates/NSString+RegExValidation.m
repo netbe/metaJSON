@@ -25,8 +25,4 @@
     return ([self numberOfMatchesWithRegExString:regExString] > 0);
 }
 
-- (BOOL) isValidEmailFormatString {
-    return [self matchesRegExString:emailRegex];
-}
-
 @end
